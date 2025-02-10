@@ -33,3 +33,75 @@
   font-style: normal;
   font-display: swap;
 }
+
+.container {
+  margin-bottom: 18vh;
+}
+
+.containerMobile {
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-bottom: 10rem;
+  }
+}
+
+.heroSubtitle {
+  font-size: 2rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .heroSubtitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSubtitle {
+    font-size: 1.6rem;
+  }
+}
+
+.ctaButton {
+  composes: button button--secondary button--lg from global;
+}
+
+@media (max-width: 768px) {
+  .ctaButton {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+.bottomContainer {
+  margin-bottom: 10vh;
+}
+
+@media (max-width: 768px) {
+  .bottomContainer {
+    margin-bottom: 5vh;
+  }
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+.tutorialButton {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .tutorialButton {
+    font-size: 0.9rem;
+  }
+}

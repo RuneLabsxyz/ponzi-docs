@@ -19,12 +19,33 @@ function HomepageHeader() {
       alignItems: 'flex-end',
       imageRendering: 'pixelated'
     }}>
-      <div className="container" style={{ marginBottom: '18vh' }}>
-        <p className={clsx("hero__subtitle", styles.customFont)} style={{fontSize: '2rem', color: 'white'}}>{siteConfig.tagline}</p>
+      <div style={{
+        position: 'absolute',
+        top: '30%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        width: 'min(80vw, 600px)',
+        height: 'auto',
+        imageRendering: 'pixelated'
+      }}>
+        <img src="/img/ponziland.png" alt="Ponzi Land Logo" style={{
+          width: '100%',
+          height: 'auto'
+        }} />
+      </div>
+      <div className={clsx("container", styles.container)}>
+        <p className={clsx("hero__subtitle", styles.customFont, styles.heroSubtitle)} style={{
+          fontSize: 'clamp(1rem, 4vw, 1.5rem)'
+        }}>
+          {siteConfig.tagline}
+        </p>
         <div className={styles.buttons}>
           <Link
-            className={clsx("button button--secondary button--lg", styles.customFont)}
-            to="/docs/intro">
+            className={clsx(styles.customFont, styles.ctaButton)}
+            to="/docs/intro"
+            style={{
+              fontSize: 'clamp(0.8rem, 3vw, 1.2rem)'
+            }}>
             Tutorial - 5min ⏱️
           </Link>
         </div>
