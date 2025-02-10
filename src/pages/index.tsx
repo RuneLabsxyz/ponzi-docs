@@ -16,7 +16,8 @@ function HomepageHeader() {
       backgroundPosition: 'center',
       minHeight: '93vh',
       display: 'flex',
-      alignItems: 'flex-end'
+      alignItems: 'flex-end',
+      imageRendering: 'pixelated'
     }}>
       <div className="container" style={{ marginBottom: '18vh' }}>
         <p className={clsx("hero__subtitle", styles.customFont)} style={{fontSize: '2rem', color: 'white'}}>{siteConfig.tagline}</p>
