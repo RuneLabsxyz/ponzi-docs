@@ -19,7 +19,7 @@ function HomepageHeader() {
       alignItems: 'flex-end'
     }}>
       <div className="container" style={{ marginBottom: '18vh' }}>
-        <p className={clsx("hero__subtitle", styles.customFont)} style={{textTransform: 'lowercase', fontSize: '2rem', color: 'white'}}>{siteConfig.tagline}</p>
+        <p className={clsx("hero__subtitle", styles.customFont)} style={{fontSize: '2rem', color: 'white'}}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className={clsx("button button--secondary button--lg", styles.customFont)}
