@@ -68,9 +68,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Ponzi Land',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Ponzi Land Logo',
         src: 'img/coin.png',
       },
       items: [
