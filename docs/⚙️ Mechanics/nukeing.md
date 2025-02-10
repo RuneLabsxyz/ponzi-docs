@@ -52,7 +52,7 @@ For the true **Ponzi degenerates**, we allow users to **add their own ERC-20 tok
 - This is **high risk, high reward**—use at your own discretion.  
 
 <!-- ![Screenshot of Token Selection UI](./images/add_custom_token.png)   -->
-*(Above: Screenshot of the UI for adding your own tokens.)*  
+<!-- *(Above: Screenshot of the UI for adding your own tokens.)*   -->
 
 ---
 
