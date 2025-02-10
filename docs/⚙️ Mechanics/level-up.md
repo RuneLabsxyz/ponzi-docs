@@ -6,8 +6,8 @@ sidebar_position: 1
 
 In **Ponzi Land**, land ownership isn't just about flipping for profit—**long-term holders are rewarded**. The longer you own a plot, the more powerful it becomes. Through the **building leveling system**, landowners can upgrade their properties over time to **increase their tax earnings**.  
 
-<!-- ![Building Level Progression](./images/building_leveling.png)   -->
-*(Above: A visual of the three building levels, with arrows showing progression. Higher-level buildings are **bigger, flashier, and more Ponzi**.)*  
+![Building Level Progression](/img/building_leveling.png)  
+*(Above: A visual of the three building levels. Higher-level buildings are **bigger, flashier, and more Ponzi**.)*  
 
 ---
 
