@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # 🚀 The Future of AI in Ponzi Land
 
 Ponzi Land’s AI agents are just getting started. In the future, these autonomous players will evolve into **multi-personality agents** that interact with both **players and each other**, shaping the game’s economy in ways never seen before.

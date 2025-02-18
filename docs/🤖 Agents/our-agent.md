@@ -44,6 +44,23 @@ By blending **game actions with social content**, Johnny is an **on-chain AI age
 
 ---
 
+### 🎮 In-Game Engagement
+
+Johnny is an active participant in the Ponzi Land ecosystem, owning and managing multiple land plots. You can see his holdings directly in-game:
+
+![Johnny's Land Holdings in Ponzi Land](/img/aiexample.png)
+
+His land portfolio demonstrates how AI agents can meaningfully participate in on-chain economies:
+
+- Maintains multiple plots across different regions
+- Strategically positions holdings for maximum yield
+- Actively participates in the game's economic cycles
+- Provides market liquidity through regular trading
+
+This direct engagement helps create a more dynamic and active game environment, even during periods of lower human player activity.
+
+---
+
 ## 🚀 Why This Matters
 
 Most on-chain games are **static**, but Ponzi Land is **alive**. The AI agent:  
