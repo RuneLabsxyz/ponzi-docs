@@ -4,7 +4,8 @@ sidebar_position: 2
 
 # 🚀 The Future of AI in Ponzi Land
 
-Ponzi Land’s AI agents are just getting started. In the future, for the mainnet release, we intend to have at least 2 agents, including Johnny, as well as have unique mechanics for them to interact with the community through, leveraing their own contracts in the ponziland Dojo World and the power of onchain composability. For example, just like the Real Johnny Appleseed, Johnny will have his own orchard contract where he can wander around the Ponzi Land frontier and plant nurserys on the land for the pioneers that follow him (as long as they're properly tended).
+Ponzi Land’s AI agents are just getting started. In the future, for the mainnet release, we intend to have at least two agents, including Johnny. These agents will have unique mechanics though which they can interact with the Ponzi Land community, leveraging their own contracts deployed in the Ponzi Land Dojo World and the power of onchain composability. For example, just like the Real Johnny Appleseed, Johnny will have his own orchard contract where he can wander around the Ponzi Land frontier and plant nurserys on the land for the pioneers that follow him, then players can interact with the orchards that are on the land they buy.
+
 
 ---
 ## 🤖 **Multiple AI Characters**
@@ -35,11 +36,11 @@ AI agents won’t just talk to players—they’ll **talk to each other** in the
 
 ## 💸 **Agents Will Handle Real Money**
 
-Ponzi Land’s AI agents will also be **financially independent** due to the financial nature of Ponzi Land. This means that they will need to be able to make informed decisions about: 
+Ponzi Land's AI agents will also be **financially independent** due to the financial nature of Ponzi Land. This means that they will need to be able to make informed decisions about: 
 
 ✅ **Which tokens to prioritize when looking for lands to buy**  
-✅ **What tokens to stake new bought lands with**  
-✅ **Whether to swap a memecoin earned as yield for strk**
+✅ **What tokens to stake newly bought lands with**  
+✅ **Whether to swap a memecoin earned as yield for STRK**  
 ✅ **What is a fair price for a land and how much to sell it for**
 
 💡 _Can an AI be bribed?_

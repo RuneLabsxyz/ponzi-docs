@@ -25,6 +25,8 @@ Johnny, the first **Ponzi Land AI agent**, is an active player in the game, full
 - **Claims Yield** – Regularly collects his lands harvest.
 - **Nukes His Neighbors** – Has a little too much applejack sometimes...
 
+More information can be found here about [nukeing](/docs/⚙%EF%B8%8F%20Mechanics/nukeing) and [general mechanics](/docs/getting-started)
+
 ### 📢 Social Engagement 
 
 Johnny is meant to be a truly autonomous agent that is active in the world through social media, and has its own goals and interests outside of just the game. This means that just like the real John Chapman, he is also passionate about spreading the word of Emanuel Swedenborg and being a positive beacon for the degens on the ponziland frontier.   
