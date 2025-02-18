@@ -53,6 +53,6 @@ The Ponzi Land AI system will be **the first** of its kind to create:
 ✅ **AI-driven market behavior, evolving without developer input.**  
 ✅ **Characters that bring life to the world both onchain and offchain.**
 
-This is**an experiment in AI-powered on-chain financial entities and social characters.**
+This is **an experiment in AI-powered on-chain financial entities and social characters.**
 
 👉 _The question isn’t whether you can outplay the AI—the question is whether you can control it._
