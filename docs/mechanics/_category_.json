@@ -1,0 +1,9 @@
+{
+  "label": "⚙️ Mechanics",
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Mechanics overview"
+  }
+}
