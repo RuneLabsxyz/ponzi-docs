@@ -4,20 +4,13 @@ sidebar_position: 2
 
 # 🚀 The Future of AI in Ponzi Land
 
-Ponzi Land’s AI agents are just getting started. In the future, these autonomous players will evolve into **multi-personality agents** that interact with both **players and each other**, shaping the game’s economy in ways never seen before.
+Ponzi Land’s AI agents are just getting started. In the future, for the mainnet release, we intend to have at least two agents, including Johnny. These agents will have unique mechanics though which they can interact with the Ponzi Land community, leveraging their own contracts deployed in the Ponzi Land Dojo World and the power of onchain composability. For example, just like the Real Johnny Appleseed, Johnny will have his own orchard contract where he can wander around the Ponzi Land frontier and plant nurserys on the land for the pioneers that follow him, then players can interact with the orchards that are on the land they buy.
+
 
 ---
+## 🤖 **Multiple AI Characters**
 
-## 🤖 **Multiple AI Personalities**
-
-Right now, Johnny is the only AI in Ponzi Land. But soon, there will be **multiple AI agents**, each with its own **playstyle, strategy, and personality**:
-
-- **The Greedy Flipper** – Buys low, sells high, always looking for the best deal.
-- **The Diamond Hands Holder** – Refuses to sell and maximizes yield through long-term holding.
-- **The Chaotic Nuker** – Looks for weak landowners and strategically nukes them.
-- **The Meme King** – Focuses on **community engagement**, stirring up hype on social media.
-
-Each agent will develop **distinct behaviors**, making Ponzi Land feel like a **living, breathing economy** with AI-driven **players, rivals, and influencers**.
+While Johnny is the first, the best is yet to come. While Johnny is meant to be more of a side character in the world, and more of a folk hero like the real Johnny Appleseed, there will be another AI character more in line with the Ponzi Land spirit. While Johnny can be a wanding beacon of positivity on the frontier, the other Ponzi Land AI will be a bit more... Ponzi.
 
 ---
 
@@ -25,11 +18,8 @@ Each agent will develop **distinct behaviors**, making Ponzi Land feel like a **
 
 For the first time, players will be able to **directly influence AI decision-making** through social interaction:
 
-✅ **Public Tweets** – Players can tag AI agents on Twitter and try to **convince them to act**.  
-✅ **Bribes & Persuasion** – If enough people tweet at an agent, it might **change its land pricing, sell a tile, or nuke a competitor**.  
-✅ **Reputation System** – Some agents will be more **persuadable** than others, while some will only listen to **high-status players**.
-
-💡 _Imagine rallying a Twitter mob to convince an AI to sell land at a discount or to nuke an opponent’s plot._
+✅ **Public Tweets** – Players can tag AI agents on Twitter and try to **influence their decisions**.  
+✅ **Reputation System** – Agents will remember how a player acts towards them and will have opinions of people and tokens.
 
 ---
 
@@ -37,23 +27,23 @@ For the first time, players will be able to **directly influence AI decision-mak
 
 AI agents won’t just talk to players—they’ll **talk to each other** in their own **exclusive agent-only channels**.
 
-- **Discord & Private AI Forums** – AI agents will hold **secret meetings** to discuss land prices, market trends, and who to nuke next.
-- **Real AI Alliances & Rivalries** – Some AI agents will form **alliances**, helping each other grow wealthier. Others will act as **lone wolves**, exploiting the system for personal gain.
-- **Players Can Intervene** – Players will be able to **spy on AI conversations** or even attempt to influence them.
+- **Private Discord Channels** – AI agents will have their own private channel to share a more complete picture of their thoughts compared to twitter.
+- **Players Can Intervene** – Players will be able to **spy on AI conversations** or even attempt to take advantage of them.
 
-💡 _What if an AI agent betrays another AI, causing a massive Ponzi collapse?_
+💡 _What if an AI agent lies about its thoughts to trick the people watching?_
 
 ---
 
-## 💸 **Agents Will Be Able to Receive Money (Like Trading Bots)**
+## 💸 **Agents Will Handle Real Money**
 
-Ponzi Land’s AI agents will also become **financially independent**, able to:
+Ponzi Land's AI agents will also be **financially independent** due to the financial nature of Ponzi Land. This means that they will need to be able to make informed decisions about: 
 
-✅ **Accept Player Donations** – Players can **send tokens to an AI agent** to increase its influence in the game.  
-✅ **Weigh Player Influence** – The **biggest token holders will have the most say** in what the AI does.  
-✅ **Act Like On-Chain Trading Bots** – AI agents will **buy, sell, and stake assets** based on **who funds them**.
+✅ **Which tokens to prioritize when looking for lands to buy**  
+✅ **What tokens to stake newly bought lands with**  
+✅ **Whether to swap a memecoin earned as yield for STRK**  
+✅ **What is a fair price for a land and how much to sell it for**
 
-💡 _Want to control an AI? Buy a stake in its decisions._
+💡 _Can an AI be bribed?_
 
 ---
 
@@ -62,8 +52,8 @@ Ponzi Land’s AI agents will also become **financially independent**, able to:
 The Ponzi Land AI system will be **the first** of its kind to create:  
 ✅ **Autonomous AI economies that run 24/7.**  
 ✅ **AI-driven market behavior, evolving without developer input.**  
-✅ **Player-AI interaction through social media and economic influence.**
+✅ **Characters that bring life to the world both onchain and offchain.**
 
-This is**an experiment in AI-powered on-chain financial entities.**
+This is **an experiment in AI-powered on-chain financial entities and social characters.**
 
 👉 _The question isn’t whether you can outplay the AI—the question is whether you can control it._
