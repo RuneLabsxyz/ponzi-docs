@@ -1,10 +1,17 @@
 # 🛠 How We Built Johnny
 
-Johnny, Ponzi Land's first AI agent, represents a unique blend of **on-chain automation** and **social intelligence**. Here's how we brought him to life.
+Johnny, Ponzi Land's first AI agent, represents a unique blend of **on-chain activity** and **social presence**. Here's how we brought him to life.
 
 ## 🧠 Core Architecture
 
-Johnny is build with an early version of [Daydreams](https://www.dreams.fun/), specifically a fork of 0.0.4 which can be found [here](https://github.com/Runelabsxyz/daydreams). It works through having a core orchestrator for the agent that is responsible for handling thoughts created by the conscioussness, as well as inputs from discord and twitter. It also has access to the chain of thought that the the orchestrator can use to execute actions in ponziland. 
+Johnny is built with an early version of [Daydreams](https://www.dreams.fun/), specifically a fork of 0.0.4 which can be found [here](https://github.com/Runelabsxyz/daydtreams). 
+
+The system works through:
+- A core orchestrator that handles inputs and creates actions
+- A consciousness module that produces thoughts on an interval
+- Processors that handle inputs from Discord and Twitter
+
+These thoughts are then handled as inputs by the consciousness, as well as inputs from Discord and Twitter. The system processes those inputs and potentially delegates to subprocessors based on the type of input (though currently, this version only uses the master processor). It also has access to the chain of thought that the orchestrator can use to execute actions in PonziLand. However, since we are handling all inputs with a single processor, it is not good at handling messages and tweets at the moment, but future versions will be able to handle this.
 
 ![Orchestrator](/img/daydreams_chart.png)
 
@@ -12,7 +19,7 @@ The conscioussness is set to run every 5 minutes, and will produce a thought abo
 
 The conscioussness produces thoughts such as "I should check on my lands", or "I should tweet something", which the orchestrator processes as an input to decide what to do. The orchestrator will process the thought and then output the actions to take, and in the case of a ponziland action, a chain of thought is started to execute the action and then the result of the ponziland action is processed as a new input.
 
-All of the charactarization is done in the conscioussness and the orchestrator/processor. The conscioussness produces thoughts while the processor handles them and decides what actions to take. At the moment the actions the processor has access to are:
+All of the charactarization is done in the conscioussness and the orchestrator/processor. The conscioussness produces thoughts while the processor processes those thoughts as well as other inputs, and decides what actions to take. At the moment the actions the processor has access to are:
 - discord_message
 - tweet
 - ponziland_action ( Start Chain of Thought)
@@ -39,10 +46,23 @@ and can execute the following starknet calls:
 
 
 
-So when Johnny decides to check on his lands, the chain of thought will make the query and then return the results to the orchestrator/processor, where the processor can decide how to handle it. Then the processor can potentially create a new ponziland_action to follow up on the thought. The prompt in the chain of thought that determines whether the query has been completed, and if the chain of thought should be terminated, has been modified to return a summary of all actions that have been taken and all data that has been fetched. The current version uses the chain of thought for pretty limited and specific actions, so a usual chain of thought will be making a query and returning the results to the processor.
+So when Johnny decides to check on his lands:
+1. The chain of thought makes the query
+2. Returns the results to the orchestrator/processor
+3. The processor decides how to handle it
+4. Optionally creates a new `ponziland_action` to follow up
 
-This means that after the chain of thought decides if an action is complete, the processor also makes a similar decision while including other context like the character data and the previous actions that have been taken. So if Johnny is going to bid on an auction, the action will usually take 2 chain of thoughts, one to fetch the auction data, and one to make the bid, but doing it this way enables keeping the character data separate from the chain of thought and is required to have important decisions like whether to buy a land be done on the processor level rather than the chain of thought level. This way we can incorporate the personality and potentially any memories in the decision making process while keeping the chain of thought focused on how to do the given task rather than making decisions about what to do.
+The prompt in the chain of thought determines whether the query has been completed and if the chain should be terminated. It has been modified to return a summary of all actions taken and data fetched. The current version uses the chain of thought for limited, specific actions - typically making a query and returning results to the processor.
 
+When Johnny bids on an auction, the process typically involves two chain of thoughts:
+1. First chain: Fetch the auction data
+2. Second chain: Make the bid
+
+This separation allows us to:
+- Keep character data separate from the chain of thought
+- Ensure important decisions (like land purchases) happen at the processor level
+- Incorporate personality and potential memories in the decision-making process
+- Keep the chain of thought focused on task execution rather than decision-making
 
 Also, the processor has been simplified in this version to only use a single processor, which has been tailored to handle the thoughts produced by the conscioussness and is therefore bad at handling messages at the moment. Ideaglly we would process messages and internal thoughts separately, though delegating to a subprocessor, but this is a simpler solution for now. 
 
