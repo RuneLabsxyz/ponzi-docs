@@ -11,13 +11,13 @@ The system works through:
 - A consciousness module that produces thoughts on an interval
 - Processors that handle inputs from Discord and Twitter
 
-The orchestrator handles all inputs, including including thoughts created by the consciousness, and processes them. Ideally the processor would handle messages differently from thoughts through delegating to a subprocessor, but this is a simpler solution for now that only uses the master processor, so it is bad at responding to messages at the moment. The orchestrator can then create a `ponziland_action` in response to the input, which creates a chain of thought to execute the given action in Ponzi Land and informs the orchestrator of the result.
-
 ![Orchestrator](/img/daydreams_chart.png)
 
-The conscioussness is set to run every 5 minutes, and will produce a thought about either doing something in ponziland or sharing a thought on twitter. The prompt includes the five most recent thoughts produced to avoid repeating itself. If the conscioussness produces a thought about doing something in ponziland, like "I should check on my lands", the orchestrator will create a chain of thought to do so, and then the chain of thought will return the outcome of the action to the orchestrator, where the result can be processed and responded to.
+The orchestrator handles all inputs, including internal thoughts created by the consciousness, and processes them. Ideally the processor would handle messages differently from thoughts through delegating to a subprocessor, but this is a simpler solution for now that only uses the master processor, so it is bad at responding to messages at the moment. The orchestrator can then create a `ponziland_action` in response to the input, which creates a chain of thought to execute the given action in Ponzi Land and informs the orchestrator of the result.
 
-All of the charactarization is done in the conscioussness and the orchestrator/processor. The conscioussness produces thoughts while the processor processes those thoughts as well as other inputs, and decides what actions to take. At the moment the actions the processor has access to are:
+The consciousness is set to run every 5 minutes, and will produce a thought about either doing something in ponziland or sharing a thought on twitter. The prompt includes the five most recent thoughts produced to avoid repeating itself. If the consciousness produces a thought about doing something in ponziland, like "I should check on my lands", the orchestrator will create a chain of thought to do so, and then the chain of thought will return the outcome of the action to the orchestrator, where the result can be processed and responded to.
+
+All of the characterization is done in the consciousness and the orchestrator/processor. The consciousness produces thoughts while the processor processes those thoughts as well as other inputs, and decides what actions to take. At the moment the actions the processor has access to are:
 - discord_message
 - tweet
 - ponziland_action ( Start Chain of Thought)
