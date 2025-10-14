@@ -85,7 +85,7 @@ const config: Config = {
           "aria-label": "Twitter",
         },
         {
-          href: "https://discord.gg/ponziland",
+          href: "https://discord.gg/2Mt3HhQpmD",
           position: "right",
           className: "header-discord-link",
           "aria-label": "Discord",

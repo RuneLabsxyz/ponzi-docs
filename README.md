@@ -23,6 +23,6 @@ Jump right in by reading the **[Getting Started Guide](./docs/getting-started.md
   
 ### 🔗 Useful Links  
 - 🌎 **Ponzi Land Game:** [ponzi.land](https://ponzi.land)  
-- 🗣 **Community & Updates:** [Twitter](https://twitter.com/ponzidotland) | [Discord](https://discord.gg/ponziland)  
+- 🗣 **Community & Updates:** [Twitter](https://twitter.com/ponzidotland) | [Discord](https://discord.gg/2Mt3HhQpmD)  
 
 🚀 *Get ready to flip land, farm taxes, and build the ultimate Ponzi empire!*  
